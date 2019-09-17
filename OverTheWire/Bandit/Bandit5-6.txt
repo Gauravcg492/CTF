@@ -1,0 +1,13 @@
+$ ssh bandit.labs.overthewire.org -l bandit5 -p 2220
+pw: koReBOKuIDDepwhWk7jZC0RTdopnAYKh
+
+$ ls
+$ cd inhere/
+$ find . -mindepth 2 -size 1033c ! -executable
+./maybehere/.file2
+$ file ./maybehere/.file2
+ASCII text
+$ cat ./maybehere/.file2
+
+DXjZPULLxYr17uwoI01bNLQbtFemEgo7
+

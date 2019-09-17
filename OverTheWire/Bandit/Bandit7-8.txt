@@ -1,0 +1,9 @@
+$ ssh bandit.labs.overthewire.org -l bandit7 -p 2220
+pw: HKBPTKQnIay4Fw76bEy8PVxKEDQRKTzs
+
+$ ls
+$ cat data.txt
+large text
+$ grep "millionth" data.txt
+
+cvX2JJa4CFALtqS87jk27qwqGhBM9plV
