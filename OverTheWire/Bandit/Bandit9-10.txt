@@ -1,0 +1,9 @@
+$ ssh bandit.labs.overthewire.org -l bandit9 -p 2220
+pw: UsvVyFSfZZWbi6wgC7dAFyFuR6jQQUhR
+
+$ ls
+$ cat data.txt
+$ strings data.txt | grep =
+
+truKLdjsbJ5g7yyJ2X2R0o3a5HQJFuLk
+

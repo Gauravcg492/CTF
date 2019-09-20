@@ -1,0 +1,5 @@
+$ ssh bandit.labs.overthewire.org -l bandit11 -p 2220
+pw: IFukwKGsFW8MOq3IRFqrxE1hxTNEbUPR
+
+#rot13
+5Te8Y4drgCRfCx8ugdwuEX8KFC6k2EUu

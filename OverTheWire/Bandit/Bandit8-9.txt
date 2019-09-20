@@ -1,0 +1,12 @@
+$ ssh bandit.labs.overthewire.org -l bandit8 -p 2220
+pw: cvX2JJa4CFALtqS87jk27qwqGhBM9plV
+
+$ ls
+$ cat data.txt
+$ sort data.txt
+
+UsvVyFSfZZWbi6wgC7dAFyFuR6jQQUhR
+
+$ sort data.txt | uniq -u
+
+

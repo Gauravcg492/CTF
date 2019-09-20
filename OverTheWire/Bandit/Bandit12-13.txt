@@ -1,0 +1,33 @@
+$ ssh bandit.labs.overthewire.org -l bandit12 -p 2220
+pw: 5Te8Y4drgCRfCx8ugdwuEX8KFC6k2EUu
+
+$ ls
+data.txt
+$ mkdir /tmp/dark -p
+$ cp data.txt /tmp/dark
+$ cd /tmp/dark
+$ xxd -d data.txt > data
+$ file data
+gzip data2.bin
+$ mv data data2.bin.gz
+$ gzip -d data2.bin.gz
+$ file data2.bin
+bzip2
+$ mv data2.bin data2.bin.bz2
+$ bzip2 -d data2.bin.bz2
+$ file data2.bin
+tar
+$ mv data2.bin data2.bin.tar
+$ tar xf data2.bin.tar
+.
+.
+.
+$ ls
+data8.bin
+$ file data8.bin
+ASCII text
+$ cat data8.bin
+
+8ZjyCRiBWFYkneahHwxCv3wb2a1ORpYL
+
+
