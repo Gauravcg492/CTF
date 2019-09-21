@@ -1,0 +1,8 @@
+$ ssh bandit.labs.overthewire.org -l bandit15 -p 2220
+pw: BfMYroe26WYalil77FoDi9qh59eK5xNr
+
+$ openssl s_client -connect localhost:30001
+
+type above password
+
+cluFn7wTiGryunymYOu4RcffSxQluehd

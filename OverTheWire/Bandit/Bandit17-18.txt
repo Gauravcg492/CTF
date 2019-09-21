@@ -1,0 +1,15 @@
+RSA private key in different file
+To login with RSA key use -i filename
+Set permisions to only read by only us
+
+$ sudo chmod 600 key17
+
+$ ssh -i key17 bandit.labs.overthewire.org -l bandit17 -p 2220
+
+$ diff -u passwords.old passwords.new
+
+kfBf3eYk5BPBRzwjqutbbfE887SVc5Yd
+
+
+
+
