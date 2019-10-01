@@ -1,0 +1,16 @@
+$ ssh bandit.labs.overthewire.org -l bandit20 -p 2220
+pw: GbKksEFF4yrVs6il55v6gwY5aVje5f0j
+
+
+use tmux in terminal to start your own localhost
+$ tmux
+in one window
+$ echo "GbKksEFF4yrVs6il55v6gwY5aVje5f0j" | nc -l -p 6000 
+(check for free port by scanning localhost)
+in another terminal
+$ ls
+$ ./suconnect 6000
+
+password will appear at the server window
+
+gE269g2h3mw3pwgrj0Ha9Uoqen1c9DGr

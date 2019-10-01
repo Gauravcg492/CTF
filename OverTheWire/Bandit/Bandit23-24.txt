@@ -1,0 +1,2 @@
+$ ssh bandit.labs.overthewire.org -l bandit23 -p 2220
+pw: jc1udXuA1tiHqjIsL8yaapX5XIAI6i0n
