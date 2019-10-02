@@ -1,0 +1,16 @@
+$ ssh bandit.labs.overthewire.org -l bandit31 -p 2220
+pw: 47e603bb428404d265f59c42920d81e5
+
+$ cd /tmp/dark
+$ git clone ssh://bandit31-git@localhost/home/bandit31-git/repo repo4
+$ cd repo4
+$ cat README.md
+(need to push a file)
+$ touch key.txt
+$ echo "May I come in?" > key.txt
+$ git add key.txt -f
+(-f to force)
+$ git commit -m "pass"
+$ git push origin
+
+56a9bf19c63d650ce78e6ec0354ee45e

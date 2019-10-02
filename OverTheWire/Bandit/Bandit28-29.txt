@@ -1,0 +1,14 @@
+$ ssh bandit.labs.overthewire.org -l bandit28 -p 2220
+pw: 0ef186ac70e04ea33b4c1853d2526fa2
+
+$ cd /tmp/dark
+$ git clone ssh://bandit28-git@localhost/home/bandit28-git/repo repo1
+$ cd repo1
+$ cat README.md
+(password censore)
+$ git log
+(move head to before censorship)
+$ git checkout 186a1038cc54d1358d42d468cdc8e3cc28a93fcb
+$ cat README.md
+
+bbc96594b4e001778eee9975372716b2

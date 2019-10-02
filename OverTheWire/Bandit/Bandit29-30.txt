@@ -1,0 +1,17 @@
+$ ssh bandit.labs.overthewire.org -l bandit29 -p 2220
+pw: bbc96594b4e001778eee9975372716b2
+
+$ cd /tmp/dark
+$ git clone ssh://bandit29-git@localhost/home/bandit29-git/repo repo2
+$ cd repo2
+$ cat README.d
+(no password)
+$ git log
+(no password change)
+$ git branch -r
+$ git checkout dev
+$ git log -p
+(the only change is password)
+
+5b90576bedb2cc04c86a9e924ce42faf
+

