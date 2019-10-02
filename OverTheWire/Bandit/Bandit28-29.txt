@@ -5,7 +5,7 @@ $ cd /tmp/dark
 $ git clone ssh://bandit28-git@localhost/home/bandit28-git/repo repo1
 $ cd repo1
 $ cat README.md
-(password censore)
+(password censored)
 $ git log
 (move head to before censorship)
 $ git checkout 186a1038cc54d1358d42d468cdc8e3cc28a93fcb

@@ -1,0 +1,9 @@
+URL: http://natas2.natas.labs.overthewire.org
+username: natas2
+password: ZluruAthQk7Q2MqmDeTiUij2ZvWy2mBi
+
+goto page
+add /files
+click on users.txt
+
+sJIJNW6ucpu6HPZ1ZAchaDtwd7oGrD14

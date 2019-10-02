@@ -1,0 +1,10 @@
+URL: http://natas3.natas.labs.overthewire.org
+username: natas3
+password: sJIJNW6ucpu6HPZ1ZAchaDtwd7oGrD14
+
+goto robots.txt
+you will find the directory to visit
+add /s3cr3t
+
+Z9tkRkWmpt9Qr7XrR5jWRkgOU901swEZ
+

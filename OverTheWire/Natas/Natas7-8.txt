@@ -1,0 +1,11 @@
+URL: http://natas7.natas.labs.overthewire.org
+username: natas7
+password: 7z3hEENjQtflzgnT29q7wAvMNfZdh0i9
+
+
+Goto page and inspect element. It contains link to home and about,
+but the link refers to same page but parameter for page is set to either home or about.
+In comments location of password is given.
+Paste the location as the value of page
+
+DBfUBfqQG69KvJvJ1iAbMoIpwSNQ9bWe 

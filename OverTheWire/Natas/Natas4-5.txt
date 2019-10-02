@@ -1,0 +1,12 @@
+URL: http://natas4.natas.labs.overthewire.org
+username: natas4
+password: Z9tkRkWmpt9Qr7XrR5jWRkgOU901swEZ
+
+Goto page
+inspect element and click on network
+select one get request and edit the referer tag
+edit referer header from natas4 to natas5
+check the response
+
+iX6IOfmpN7AYOQGPwtn3fXpbaJVJcHfq
+

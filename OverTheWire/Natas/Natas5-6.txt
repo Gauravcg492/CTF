@@ -1,0 +1,12 @@
+URL: http://natas5.natas.labs.overthewire.org
+username: natas5
+password: iX6IOfmpN7AYOQGPwtn3fXpbaJVJcHfq
+
+
+Goto page and inspect element
+Since it said it's not logged in, check the storage part for cookies
+In cookie section, set value of loggedin from 0 to 1
+Reload Page
+
+aGoY4q2Dc6MgDq4oL4YtoKtyAg9PeHa1
+

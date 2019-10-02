@@ -1,0 +1,8 @@
+Username: natas0
+Password: natas0
+URL:      http://natas0.natas.labs.overthewire.org
+
+Inspect Element
+Password in comments
+
+gtVrDuiDfck831PqWsLEZy5gyDz1clto

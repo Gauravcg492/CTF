@@ -1,0 +1,9 @@
+URL: http://natas1.natas.labs.overthewire.org
+username: natas1
+password: gtVrDuiDfck831PqWsLEZy5gyDz1clto
+
+
+Right click is blocked. Use keyboard shortcut (shift+f5) to enter inspect element.
+Password in comments
+
+ZluruAthQk7Q2MqmDeTiUij2ZvWy2mBi

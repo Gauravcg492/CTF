@@ -1,0 +1,12 @@
+URL: http://natas8.natas.labs.overthewire.org
+username: natas8
+password: DBfUBfqQG69KvJvJ1iAbMoIpwSNQ9bWe
+
+Goto page and click on view source
+you can see value of encoded string.
+Reverse the function.
+Use hex2bin on encoded string, rev the string and base64 decode to get the secret.
+oubWYf2kBq
+paste the secret and get the password.
+
+W0mMhUcRRnG8dcghE4qvk3JA9lGt8nDl
