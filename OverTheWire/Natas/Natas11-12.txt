@@ -1,0 +1,38 @@
+URL: http://natas11.natas.labs.overthewire.org
+username: natas11
+password: U82q5TCMMQ9xuFoI3dYX61s7OZD9JKoK
+
+In page the array data is encoded with json and then xor encypted and base64 encoded.
+But key is not known, but we have the end cookie.
+Base64 decode the cookie and xor it with the data to get the key.
+Use the key to xor encrypt the data with showpassword as yes.
+Reload page to get the password.
+In php interactive mode
+
+$c=base64_decode("ClVLIh4ASCsCBE8lAxMacFMZV2hdVVotEhhUJQNVAmhSEV4sFxFeaAw%3D")
+$a=array("showpassword"=>"no","bgcolor"=>"#ffffff");
+$b=json_encode($a);
+$key="";
+for($i=0;$i<strlen($b);$i++)
+{
+ $key.=$b[$i]^$c[$i];
+}
+echo $key;
+qw8Jqw8Jqw8Jqw8Jqw8Jqw8Jqw8Jqw8Jqw8Jqw8Jq
+$key="qw8J"
+(Now create the cookie)
+$a=array("showpassword"=>"yes","bgcolor"=>"#ffffff");
+$b=json_encode($a);
+$data =""
+for($i=0;$i<strlen($b);$i++)
+{
+$data.=$b[$i]^$key[$i%4];
+}
+$enc = base64_encode($data);
+echo $enc;
+ClVLIh4ASCsCBE8lAxMacFMOXTlTWxooFhRXJh4FGnBTVF4sFxFeLFMK
+
+put this in place of the old cookie to get the password.
+
+EDXp0pS26wLKHZy1rDBPUZk0RKfLGIR3
+
