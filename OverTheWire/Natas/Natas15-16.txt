@@ -1,0 +1,11 @@
+URL: http://natas15.natas.labs.overthewire.org
+username: natas15
+password: AwWj0w5cvxrZiONgZ9J5stNVkmxdk39J
+
+
+Use python to sql inject the script to search for password.
+used Like binary Value% to get the password
+Script names as script15
+
+
+WaIHEacj63wnNIBROHeqi3p9t0m5nhmh
