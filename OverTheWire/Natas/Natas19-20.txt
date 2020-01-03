@@ -1,3 +1,10 @@
 URL: http://natas19.natas.labs.overthewire.org
 username: natas19
 password: 4IwIrekcuZlA9OsjOkoUtwU6lhokCPYs
+
+Same as the previous problem but the numbers are hex encoded along with an additional '-'.
+Any username given is put in hext after '-'. So from the php code it requires the username to be admin.
+So the script is modified and '-admin' is added to the cookie and hex encoded before sending.
+It is given in script19.py.
+
+eofm3Wsshxc5bwtVnEuGIlr7ivb9KABF

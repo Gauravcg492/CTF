@@ -1,0 +1,10 @@
+URL: http://natas20.natas.labs.overthewire.org
+username: natas20
+password: eofm3Wsshxc5bwtVnEuGIlr7ivb9KABF
+
+the sessions are stored in key value pairs according to the code.
+so "admin%0Aadmin%201" = "admin\nadmin 1" will consider the first admin as value for name.
+And the pair after \n is considered as session key admin with value 1. 
+Hence printing the credentials.
+
+IFekPyrQXftziDEsUr3x21sYuahypdgJ

@@ -1,0 +1,3 @@
+URL: http://natas25.natas.labs.overthewire.org
+username: natas25
+password: GHF6X7YwACaYYssHVY05cFq83hRktl4c

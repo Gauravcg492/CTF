@@ -1,0 +1,14 @@
+URL: http://natas22.natas.labs.overthewire.org
+username: natas22
+password: chG9fbe1Tq2eWVMgjYYD1MsfIvN461kJ
+
+just passing revelio in get data will display the results.
+But using in browser redirects to initial page.
+Hence to bypass redirection use either burp or use curl with -u.
+Hence use the command
+curl -s -u natas22:chG9fbe1Tq2eWVMgjYYD1MsfIvN461kJ http://natas22.natas.labs.overthewire.org/?revelio
+-s for showing current response without redirection.
+-u for name ans password for the webpage.
+/?revelio is the additional get message
+
+D0vlad33nQF0Hz2EP255TP5wSW9ZsRSE

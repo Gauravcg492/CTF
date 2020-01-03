@@ -1,0 +1,9 @@
+URL: http://natas23.natas.labs.overthewire.org
+username: natas23
+password: D0vlad33nQF0Hz2EP255TP5wSW9ZsRSE
+
+By passing 11iloveyou the strstr() will return true.
+When that password is compared with 10, It considers it to be integer 11.
+Hence passing the if condition and returning the password for next level.
+
+OsRmXFguozKpTZZ5X14zNO43379LZveg

