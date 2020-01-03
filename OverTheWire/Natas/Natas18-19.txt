@@ -2,4 +2,10 @@ URL: http://natas18.natas.labs.overthewire.org
 username: natas18
 password: xvKIqDjy4OPv7wCRgDlmj0pFsCsDjhdP
 
+One particular session ID gives you the admin login/id.
+So brute force the PHPSESSID from 1 to 640 to find the right login.
+Code provided in script18.py
+Can use Burp suite also to brute force using the intruder.
+
+4IwIrekcuZlA9OsjOkoUtwU6lhokCPYs
 

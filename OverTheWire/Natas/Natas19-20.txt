@@ -1,0 +1,3 @@
+URL: http://natas19.natas.labs.overthewire.org
+username: natas19
+password: 4IwIrekcuZlA9OsjOkoUtwU6lhokCPYs
